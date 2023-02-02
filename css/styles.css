@@ -12,10 +12,8 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --title-adres-color: rgba(255, 255, 255, 0.6);
     --main-background-color: #FFFFFF;
     --secondary-background-color: #F5F4FA;
-    --color-footer: #2F303A;
 }
 
 body {
@@ -135,6 +133,7 @@ body {
 /* Hero */
 .hero {
     text-align: center;
+    background-color: #2F303A;
 }
 
 .hero-title {
@@ -143,7 +142,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.364; 
-    /* text-align: center; */
+    /* text-align: center; */    
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -167,6 +166,7 @@ body {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: #2196F3;
+    cursor: pointer;
 }
 
 /* Feasture */
@@ -293,7 +293,7 @@ body {
 
 /* Address */
 .footer {
-    background-color: var(--color-footer);
+    background-color: #2F303A;
 }
 
 .container.top-padding {
@@ -308,6 +308,13 @@ body {
 .address {
     width: 231px;
     height: 81px;
+}
+
+.address-list-website:hover,
+.address-list-link:hover,
+.address-list-website:focus,
+.address-list-link:focus {
+    color: var(--accent-color);
 }
 
 .address-list { 
@@ -332,7 +339,7 @@ body {
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    color: var(--title-adres-color);
+    color: var(--primary-text-color);
 }
 
 .footer .logo {
@@ -370,6 +377,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--title-text-color);
     background-color: var(--secondary-background-color);
+    cursor: pointer;
 }
 
 .portfolio-filter-button:hover,
