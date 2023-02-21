@@ -398,6 +398,7 @@ body {
     /* display: inline-block; */
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+    width: 370px;
 }
 
 .portfolio-list-item:not(:nth-child(3n)) {
